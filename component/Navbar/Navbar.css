@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    position: fixed;
+    bottom: 665px;
+    background-color: rgb(76, 84, 84);
+    width: 1550px;
+z-index: 1;
+    
+}
+.nav-logo{
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 700;
+   color: rgb(255, 255, 255);
+   margin-left: 100px;
+   
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 19px;
+    gap: 90px;
+    position: relative;
+    left: 500px;
+    
+}
+.nav-menu li{
+    padding: 10px 20px;
+    background: black;
+    color: aliceblue;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    right: 600px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
